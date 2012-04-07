@@ -1,0 +1,7 @@
+;;; -*- coding: utf-8 -*-
+(("/Users/eli/dev/spiral/src/spiral/core.clj" . 306)
+ ("/Users/eli/dev/spiral/src/spiral/librarian.clj" . 476)
+ ("/Users/eli/dev/spiral/src/spiral/records.clj" . 472)
+ ("/Users/eli/dev/spiral/test/spiral/test/core.clj" . 69)
+ ("/Users/eli/dev/spiral/test/spiral/test/data.clj" . 139)
+ ("/Users/eli/dev/spiral/test/spiral/test/librarian.clj" . 360))

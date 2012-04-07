@@ -1,0 +1,36 @@
+(ns blarg.core
+  (:use compojure.core)
+  (:use [hiccup core page-helpers])
+  (:require [compojure.route :as route]
+            [compojure.handler :as handler]))
+
+(defn layout [page]
+  (html5
+    [:head
+      [:title "Hello World"]
+      (include-css "/css/style.css")]
+    [:body
+      (page)]))
+
+(defstruct post :title :body)
+
+(def posts (for [_ (range 10)] (struct post "Foo" "Bar")))
+
+(defn render-post [post]
+  [:div
+   [:span (:title post)]])
+
+(defn index-page []
+  [:h1 "hello world!"])
+
+(defn get-with-layout [route args page]
+  (GET route args (layout page)))
+
+(defroutes main-routes
+  (get-with-layout "/" [] index-page)
+  (route/resources "/")
+  (route/not-found "Page not found"))
+
+
+(def app
+  (handler/site main-routes))

@@ -1,0 +1,10 @@
+(ns seesaw-test.core
+  (:require [seesaw.core :as s]))
+
+(s/native!)
+
+(def f (s/frame :title "Hello!"))
+
+(.setUndecorated f true) 
+
+(-> f s/pack! s/show!)

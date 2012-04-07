@@ -1,0 +1,6 @@
+(ns spiral.test.core
+  (:use [spiral.librarian])
+  (:use [clojure.test]))
+
+(deftest execute-stmt-simple
+  (is 7 (execute-statement stmt {})))

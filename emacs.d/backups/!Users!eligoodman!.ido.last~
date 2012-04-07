@@ -1,0 +1,89 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/eligoodman/dev/Spiral/src/" . "spiral/")
+ ("/Users/eligoodman/dev/Spiral/" . "src/")
+ ("/Users/eligoodman/" . "dev/")
+ ("/Users/eligoodman/dev/development_new/Blog/wordpress/" . "wp-content/")
+ ("/Users/eligoodman/dev/development_new/Blog/" . "wordpress/")
+ ("/Users/eligoodman/dev/development_new/" . "Blog/")
+ ("/Users/eligoodman/dev/" . "Spiral/")
+ ("/net/egoodman.vm.ny4dev.etsy.com/home/egoodman/development/Web/phplib/Activity/" . "Aggregator/")
+ ("/net/egoodman.vm.ny4dev.etsy.com/home/egoodman/development/Web/phplib/" . "Activity/")
+ ("/net/egoodman.vm.ny4dev.etsy.com/home/egoodman/development/Web/" . "phplib/")
+ ("/net/egoodman.vm.ny4dev.etsy.com/home/egoodman/development/" . "Web/")
+ ("/net/egoodman.vm.ny4dev.etsy.com/home/egoodman/" . "development/")
+ ("/net/egoodman.vm.ny4dev.etsy.com/home/" . "egoodman/")
+ ("/net/egoodman.vm.ny4dev.etsy.com/" . "home/")
+ ("/net/" . "egoodman.vm.ny4dev.etsy.com/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/eligoodman/dev/Spiral/src/spiral/"
+ "/Users/eligoodman/dev/Spiral/"
+ "/Users/eligoodman/dev/development_new/Blog/wordpress/"
+ "/net/egoodman.vm.ny4dev.etsy.com/home/egoodman/development/Web/phplib/Activity/Aggregator/"
+ "/Users/eligoodman/dev/"
+ "/net/egoodman.vm.ny4dev.etsy.com/home/egoodman/development/Web/phplib/JobWorker/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "core.clj"
+ "project.clj"
+ "wp-config.php"
+ "GenerateLog.php"
+ "#foo.php#"
+ "foo.php"
+ "ReacquisitionBucketEmail.php"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/eligoodman/dev/Spiral/src/spiral/" (20347 3391) "core.clj" "../" "./")
+
+ ("/Users/eligoodman/dev/Spiral/" (20347 3341) "test/" "src/" "README" "project.clj" "lib/" ".lein-deps-sum" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/eligoodman/dev/" (20349 65240) "zepto.min.js" "wedding_tax_formatted.txt" "wedding_tax.txt" "Web/" "vday.txt" "value thoughts.notes" "txt_to_html.py" "twentyten-new/" "twentyten/" "tumbliquid/" "trimmed_count_by_domain.txt" "treasury_ref_score_raw.txt" "treasury_ref_score.txt" "treasury_inclusion_score_raw.txt" "treasury_inclusion_score.txt" "tracker.py" "tracker/" "top_refed_listings.txt" "top_listings.txt" "tmp.clj" "tmp/" "Tin/" "test_pruning.pyc" "test_pruning.py" "test_length_pruning.py" "test-rails/" "Test/" "TermKit/" "tempathon/" "temp.txt" "temp.pl" "temp.html" "taglist/" "statii/" "Spiral/" "sparkup/" "sn" "SL/" "sijie/" "setup_analytics.sh" "setup.sh" "sent_user_ids.txt" "Search/" "run_ranges.py" "RollupProducerTests.php" "rollup/" "registry_tax_formatted.txt" "registry_tax.txt" "raph_demo.js" "rand.py" "python_koans/" "prune_tester.pyc" "prune_tester.py" "Projects" "populate_sqlite.py" "plots/" "output.txt" "output.csv" "opened_user_ids.txt" "npm/" "node-properties/" "nitpicker/" "manifest_v1.1/" "listing_ref_score_raw.txt" "listing_ref_score.txt" "listing_by_domain.txt" "keys.tgz" "jstests/" "Ivy/" "interview.zip" "interview-questions/" "interview/" "inmybuilding/" "index.html.eb" "inclusion_score_raw.txt" "inclusion_score.txt" "ids/" "hackathon/" "gearmanworker.log-20101209" "gaps.py" "from_splunk/" "forge_test/" "forge-error.log" "foo.rb" "foo.html~" "foo.html" "flurry/" "file5.txt" "file4.txt" "file3.txt" "file2.txt" "file.txt" "fetch_activity.py" "fashion.csv" "emails/" "dotvim/" "dotfiles/" "DevTools/" "development_new/" "development" "dbunit_pres.txt" "craftyflow/" "count_by_domain2.txt" "count_by_domain.txt" "coffee-script/" "clicked_user_ids.txt" "auto_rsync/" "activity_af_sellers.txt" "activity.db" "a.js" "a.coffee" "__init__.py" ".DS_Store" "#foo.txt#" "#foo.php#" "##foo.php##" "../" "./")
+
+ ("/Users/eligoodman/" (20350 7177) "zshrc.remote" "yankring_history_v2.txt" "user_preferences.sql" "Untitled.html" "top_searches.sql" "Sites/" "sent_test/" "sent_emails_1322339522_0" "romney-attacks-may-help-democrats.html?_r=2&hp" "romney-attacks-may-help-democrats.html?_r=1" "reac_ids.txt" "Public/" "potential focus groupemails.txt" "potential focus group.txt" "potential focus group info dump.txt" "Pictures/" "PhpstormProjects/" "pgadmin.log" "part_0" "part-00000" "nightly_2011_07_05_08_50_01_connection_log_etsy_shard_002_b1ab7560-8911-012e-4bac-002655345a88_snapshot_aa" "Music/" "Movies/" "makeApp.sh" "Library/" "latest_$folder$" "keys.tgz" "Ivy/" "Images/" "email_metadata_1321385717_0" "email_clicks_1321581790_0" "email_clicks_1321574432_0.gz" "egoodman@webutil03" "egoodman@webutil01" "egoodman@egoodman.vm.ny4dev.etsy.com/" "egoodman@egoodman.ny4dev.etsy.com" "ec2-tools/" "Dropbox/" "Downloads/" "DOS Games/" "Documents/" "dev/" "Desktop/" "bought_n_never_came_back_2010_11_15.csv" "birdswithbrains.svg" "bad-ban.txt" "Applications/" "analytics_svn/" "analytics/" "a.html" "2011_11_16_$folder$" ".zshrc" ".zsh_history" ".zsh/" ".zcompdump" ".Xcode/" ".Xauthority" ".vimrc" ".vimperator/" ".viminfo" ".vim-fuf" ".vim/" ".Trash/" ".tmux.conf" ".thumbnails/" ".subversion/" ".ssh/" ".squirrel-sql/" ".sqlite_history" ".slime-history.eld" ".s3cfg" ".recently-used.xbel" ".python-eggs/" ".profile" ".pgpass" ".node_libraries/" ".NERDTreeBookmarks" ".mysql_history" ".matplotlib/" ".macports/" ".m2/" ".lesshst" ".lein/" ".jline-clojure.main.history" ".ivy2/" ".irssi/" ".ipython/" ".inkscape-etc/" ".ido.last~" ".ido.last" ".gvimrc" ".gnome2/" ".gitconfig" ".gimp-2.6/" ".gem/" ".gegl-0.0/" ".fontconfig/" ".emacs.d/" ".emacs" ".ec2/" ".dvdcss/" ".DS_Store" ".dropbox/" ".dbshell" ".cups/" ".cpanm/" ".cpan/" ".config/" ".CFUserTextEncoding" ".bashrc" ".bash_profile.macports-saved_2010-08-24_at_12:31:12" ".bash_profile" ".bash_history" ".appcfg_nag" "../" "./")
+
+ ("/Users/eligoodman/dev/Spiral/src/" (20347 2960) "spiral/" "../" "./")
+
+ ("/Users/eligoodman/dev/development_new/Blog/wordpress/wp-content/" (20310 24486) ".svn/" "advanced-cache.php" "themes/" "index.php" "blogs.dir/" "languages/" "plugins/" "./" "../" "mu-plugins/" "object-cache.php")
+
+ ("/Users/eligoodman/dev/development_new/Blog/wordpress/" (20310 24439) "wp-rss.php" "wp-trackback.php" "wp-comments-post.php" "wp-commentsrss2.php" "wp-admin/" ".svn/" "readme.html" "wp-mail.php" "mon/" "wp-feed.php" "wp-signup.php" "wp-pass.php" "index.php" "license.txt" "wp-content/" "wp-activate.php" "xmlrpc.php" "wp-load.php" "./" "wp-login.php" "wp-includes/" "wp-settings.php" "../" "wp-rdf.php" "wp-config.php" ".htaccess" "wp-app.php" "wp-cron.php" "wp-register.php" "wp-rss2.php" "wp-blog-header.php" "wp-atom.php" "wp-links-opml.php")
+
+ ("/Users/eligoodman/dev/development_new/Blog/" (20339 26380) "wordpress/" ".gitignore" ".git/" "conf/" "./" "../" "README.md")
+
+ ("/Users/eligoodman/dev/development_new/Web/" (20339 32780) "go-pear.phar" "patch.diff" "htdocs_gci/" "vendor/" ".gitmodules" "README.mdown" "phplib/" "htdocs/" "htdocs_atlas/" "translations/" "docs/" "tmp/" "cron.d/" "htdocs_payments_admin/" ".gitignore" ".git/" "./" "tests/" "../" "htdocs_api/" "bin/" ".gitattributes" "templates/")
+
+ ("/Users/eligoodman/dev/development_new/" (20310 24434) "Ivy/" "tapestry_sql.sql" "Dashboards/" "DevTools/" "Git-Hooks/" "Blog/" "SchemaDumps/" "phase_sql.sql" "BigData/" "foo/" "Settingz/" "./" "Web/" "xhprof/" "../" "irccat/")
+
+ ("/net/egoodman.vm.ny4dev.etsy.com/home/egoodman/development/Web/phplib/Activity/Aggregator/" (20129 45743) "GenerateLog.php" "LogEntry.php" "Reason.php" "./" "../")
+
+ ("/net/egoodman.vm.ny4dev.etsy.com/home/egoodman/development/Web/phplib/Activity/" (20177 10348) "Verb.php" "Classifier.php" "Storage/" "PopulatedStoryFactory.php" "Shardifier.php" "FeedAdmin/" "StoryTypeClassifier.php" "StoryTeller/" "Joined.php" "Selector.php" "RollupProducer.php" "Connected.php" "StorableObject.php" "StoryHydrator/" "FavoriteList.php" "Listed.php" "Created.php" "StoryClassifier.php" "NewsFeedStatPrinter.php" "Favorited.php" "Story.php" "Aggregator.php" "DeadStoryException.php" "Record.php" "UnseenCountGenerator.php" "UnavailableStoryException.php" "PopulatedStory/" "Rollup.php" "BaseFinder.php" "Scorer.php" "Imported.php" "NewsFeed.php" "Fields.php" "Guard.php" "EmptyRollupException.php" "QuerySet.php" "OwnerSuppressedActivities.php" "Incidentals.php" "Set.php" "StoryTeller.php" "UserFeed.php" "FeedTuple.php" "ActivityKey.php" "./" "NewsFeedPrinter.php" "Purchased.php" "StoryFlags.php" "PopulatedStory.php" "Finder.php" "ConnectionSelector.php" "Featured.php" "Aggregator/" "SentenceGenerator.php" "StoryGenerator.php" "../" "MultiGetter.php" "Merginator.php" "FeedOptimizer.php" "Controller.php" "FilterType.php" "Pruner.php" "FeedAdmin.php" "StoryFinder.php" "StoryException.php" "RollupDataFinder.php" "StoryHydrator.php" "NewFromFavoritesFinder.php" "PrunerStateKeeper.php" "SetItem.php" "BoringStoryException.php")
+
+ ("/net/egoodman.vm.ny4dev.etsy.com/home/egoodman/development/Web/phplib/JobWorker/" (20181 2358) "CleanupJobHandles.php" "MassConvos.php" "SearchAdsCampaignStartStopRenewer.php" "ShopStatsS3Migrator.php" "YouMightLike.php" "FriendRecommendationFinalizer.php" "FeedbackFollowUpBucketEmail.php" "SignupManager.php" "PriorityTwilio.php" "ActivityBulkUpdater.php" "ListingTranslationCache.php" "Facebook.php" "EmailImporter.php" "ShopStatsSplunkAccumulate.php" "QueryTranslatorAuxWriter.php" "ShopStatsSearchAds.php" "GCIAuditTrail.php" "CategoryShardSyncer.php" "Tester.php" "FeaturedListingRefresher.php" "BillingEmail.php" "Image.php" "Homepage.php" "SearchAdsDailySalesCalculator.php" "FavoriteShop.php" "ShopStatsS3Rebake.php" "ThankYouFollowUpBucketEmail.php" "EmailInvitations.php" "Flagging.php" "ShopStats.php" "BucketEmail.php" "ReacquisitionBucketEmail.php" "BeaconTester.php" "SearchAdsCampaignKeywordSuggester.php" "Sleepy.php" "TransactionImageFixer.php" "UserGeoData.php" "Infringement.php" "SPIExpireEvents.php" "Activity.php" "ListingShortUrl.php" "SearchAds.php" "ShardMigrator.php" "ListingPropertyExporter.php" "UserFingerprint.php" "DatasetGenerate.php" "ShopStatsSearchAdsRecovery.php" "Treasury.php" "PersonalizationTracking.php" "XTest.php" "Checkout.php" "HGTV.php" "FriendRecommendationCreatorTaskPool.php" "GroupDigestEmails.php" "PriorityBucketEmail.php" "Sum.php" "Group.php" "ZTest.php" "NewsFeed.php" "SearchAdsBase.php" "DatasetLoadBatch.php" "TasteTestRecommender.php" "TranslationExtraction.php" "S3toDBLoader.php" "GCIPaymentProcessor.php" "ListingPropertyTransformer.php" "CurrencyRateUpdate.php" "UserFeed.php" "FavoritesRollups.php" "ShopStatsSplunkPersist.php" "SearchAdsEmailShowcase.php" "FindUsersByEmailTaskPool.php" "ConnectionImporter.php" "TasteTestSplashListings.php" "SearchAdsCampaignSalesCalculator.php" "CheckoutUtil.php" "ExternalAccount.php" "ImageListingRankFixup.php" "CouponPromotion.php" "MerchHubs.php" "Connection.php" "./" "ShopStatsSplunkGather.php" "Auth.php" "ForumDigester.php" "ShopStatsS3Verifier.php" "Currency.php" "ApiSandbox2.php" "ShardMigratorDelete.php" "ListingDenormalized.php" "#ReacquisitionBucketEmail.php#" "CheckoutAudit.php" "ListingDenormalizedLowPriority.php" "ShopStatsSearchAdsSnapshotBackfill.php" "ListingMaterial.php" "../" "DatasetPartProcessor.php" "GoogleProductSearchFeeder.php" "FavoriteTreasury.php" "FqlPullerTaskPool.php" "FacebookInfoPuller.php" "Email.php" "ReacquisitionTestBucketEmail.php" "BackfillApiSandboxKeys.php" "Twilio.php" "PromoModule.php" "GuestMigration.php" "GraphiteLoader.php" "SuperfeedrPing.php" "Shop.php" "APN.php" "SearchAdsCampaignKeywordSetter.php" "FavoriteListing.php" "GlobalWarmer.php" "SPIUpdateTracking.php" "ApiKey.php" "ScramInspector.php" "Listing.php")
+
+ ("/net/egoodman.vm.ny4dev.etsy.com/home/egoodman/development/Web/phplib/" (20177 10348) "NotImplementedException.php" "S3ChunkedFileWriter.php" "GCI/" "Encryption.php" "ConnectedAccountsTutorialController.php" "EP/" "Locale/" "Autosuggest.php" "WorkloadLogger.php" "YouMightLike.php" "JobBatch.php" "JobStatus.php" "User.php" "SecureCookie.php" "Version.php" "EventLogger/" "Homepage/" "SearchAds/" "Categories/" "TimeUtils.php" "Shell/" "TasteTest.php" "StatsD.php" "PurchaseData/" "Itertools/" "AB2/" "RealtimeFeeds/" "EtsyORM/" "TplConstants.php" "Devbot.php" "Assets/" "Perms/" "Image.php" "Storefronts/" "PorterStemmer.php" "UnboundMethod.php" "GiftCards/" "JobLib/" "JobWorker/" "ShardUtils/" "Assets.php" "Loader.php" "Locale.php" "TasteTest/" "Guest.php" "PurchaseData.php" "Seo.php" "ArbitraryKeyHash.php" "Job.php" "StringUtils.php" "CalendarMath.php" "Sitemap/" "Settings.php" "Shop/" "Tastemakers/" "UsernameSuggester/" "Thrift/" "Colors/" "Checkout/" "RealtimeFeeds.php" "StatsD/" "Themes/" "Splitter.php" "Targeting/" "Analytics/" "Flickr/" "SimilarListingsSearch.php" "UserConnections.php" "Translation/" "Logger/" "Dev/" "MobileDetector.php" "RampUp.php" "Tpl.php" "Email/" "Treasury/" "TLDs.php" "CuratedPage/" "Autolink.php" "HGTV/" "PayPal/" "Cron/" "Sell/" "Currency/" "RestAPI.php" "GoogleAnalytics.php" "Activity.php" "SPI.php" "Itertools.php" "RestAPI/" "EtsyORM.php" "Atlas/" "ErrorHandler.php" "PageTimer.php" "forums/" "SearchAds.php" "Graphite/" "UserFlags.php" "EC/" "Shipping/" "Curl/" "Solr.php" "Constants.php" "Builda/" "Smarty/" "Checkout.php" "Sharing/" "SPI/" "UserAgents.php" "SearchTest/" "Etsy/" "twilio.php" "LinkTracking/" "Promos/" "Sanitize.php" "YahooGeo/" "PushNotification/" "Help/" "Favorites/" "RelativeDate.php" "ShopCurrency.php" "Controller/" "ListingMetadata/" "Stomp.php" "Geo/" "TimeQueue.php" "Testing/" "Seo/" "Image/" "User/" "Bronto.php" "S3Base.php" "NumberFormatter.php" "Login/" "ObjectType.php" "Cache/" "SiteRpc.php" "Community/" "Explainer.php" "UserPreferences.php" "JobKeyNotSupportedException.php" "OutputSanitizer.php" "Countries.php" "ICHT/" "Datasets/" "SplunkToS3/" "OneWayHash.php" "Predicates.php" "FileLock.php" "InvalidOperationException.php" "Notes.php" "TableOfContents/" "RampUp/" "Encryption/" "FlashEmbed.php" "EmailType.php" "PushNotification.php" "SmartyCompiler.php" "Mosaic/" "REST.php" "ExternalAccount.php" "EtsyConfig/" "ListingSearch.php" "Feedback/" "OAuth/" "View/" "OrderHelper/" "Std.php" "S3.php" "EmailLandingPage/" "ListingRecommender/" "REST/" "FlashMessage.php" "SiteRpc2.php" "Connection.php" "secrets.php" "Perftool.php" "VisitTracker.php" "Auth.php" "Csrf.php" "GCI.php" "TableOfContents.php" "Showcase/" "RateLimiter/" "Convos/" "UrlUtils.php" "Search/" "DevURandom.php" "SearchEngineKeyword.php" "UAIDCookie.php" "GenderKeywords.php" "JobServerException.php" "ABAnalyzer/" "Session/" "Apps/" "JSMin.php" "Services/" "OrderHelper.php" "Logger.php" "MerchHubs/" "Builda.php" "GSB/" "PowerDash/" "ThriftClient.php" "Stomp/" "Exception/" "InlineActions.php" "Predicates/" "Experiments/" "Activity/" "Comparisons/" "Registration/" "Geodesics.php" "Enum.php" "Buy/" "Solr/" "Email.php" "Sms/" "Validation/" "Listings/" "ExternalAccount/" "JobClient.php" "Permissions/" "Connection/" "VerifiedMessage.php" "EtsyModel/" "FlagType.php" "Sharing.php" "RedirectHandler.php" "PromoModule.php" "Permissions.php" "InputChecks.php" "Facebook/" "Crypt2007.php" "Nonce.php" "Akamai.php" "MakerFaire/" "Recommendations/" "ShopCurrency/" "Autolinkers/" "Login.php" "TplBase.php" "Atlas.php" "PageTimer/" "SecureString1.php" "JobWorker.php" "Ketama.php" "Guest/" "IpDb/" "Classifiers/" "MobileApp/" "Args.php" "Newsletters/" "FlashMessage/" "RateLimit.php" "vfsStream/" "KeyValueStats/" "DuplicateJobKeyException.php" "MemcacheLock.php" "FeatureDown/" "IpUtil.php" "Math/" "IpDb.php" "UserSegment/" "Splunk.php" "Comparisons.php" "HTTP/" "Profile/" "Bronto/" "JsonFormat.php" "IOProfiler.php" "functions/" "Billing/" "Groups/" "TypeConversions.php" "JobHandle.php" "HTTP.php" "Build/" "recaptcha-php-1.11/" "../" "./")
+
+ ("/net/egoodman.vm.ny4dev.etsy.com/home/egoodman/development/Web/" (20179 59651) "patch.diff" "htdocs_gci/" "vendor/" "README.mdown" "phplib/" "htdocs/" "htdocs_atlas/" "translations/" "docs/" "tmp/" "cron.d/" ".gitignore" ".git/" "./" "tests/" "../" "htdocs_api/" "bin/" ".gitattributes" "templates/")
+
+ ("/net/egoodman.vm.ny4dev.etsy.com/home/egoodman/development/" (20152 23142) "Dashboards/" "DevTools/" "Git-Hooks/" "SchemaDumps/" "BigData/" "foo/" "./" "Web/" "../")
+
+ ("/net/egoodman.vm.ny4dev.etsy.com/home/egoodman/" (20181 6481) ".zsh/" ".viminfo" ".bashrc" ".gem/" ".mozilla/" "log" ".vim/" ".bash_logout" ".bundle/" ".subversion/" "aws.ini" "splunk_pass.txt" ".dsh/" ".ackrc" ".hudson/" "ec2-tools/" "analytics/" ".gitconfig" "Projects" ".ivy2/" ".bash_history" ".zsh_history" "development/" ".ssh/" ".vimrc" ".bash_profile" ".mysql_history" "./" "yankring_history_v2.txt" ".zshrc" "../" "run" ".zcompdump" ".ec2/" ".devtools.conf")
+
+ ("/net/egoodman.vm.ny4dev.etsy.com/home/" (20180 65365) "template/" "devman/" "egoodman/" "klittle/" "./" "jgoulah/" "../" "jpaul/")
+
+ ("/net/egoodman.vm.ny4dev.etsy.com/" (20127 7966) ".gem/" "sbin/" ".autofsck" "lost+found/" "tmp/" ".subversion/" "data/" "etc/" "opt/" ".autorelabel" "selinux/" "root/" "lib64/" ".pearrc" "var/" "dev/" "misc/" "srv/" "usr/" "mnt/" "./" "sys/" "../" ".python-eggs/" "boot/" ".rnd" "proc/" "bin/" "lib/" "home/" "media/")
+
+ ("/net/" (20181 2505) "egoodman.vm.ny4dev.etsy.com/" "../" "./")
+
+ ("/Users/" (19566 57398) "Shared/" "itsupport/" "eligoodman/" ".localized" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

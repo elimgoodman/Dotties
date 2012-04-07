@@ -1,0 +1,60 @@
+
+;; ----- smex-history -----
+(
+ paredit-mode
+ clojure-jack-in
+ dired
+ package-install
+ load-file
+ find-file
+ linum-mode
+)
+
+;; ----- smex-data -----
+(
+ (package-install . 21)
+ (eshell . 1)
+ (paredit-mode . 24)
+ (clojure-jack-in . 30)
+ (run-lisp . 1)
+ (color-theme-select . 8)
+ (customize-face . 1)
+ (find-library . 1)
+ (color-theme-solarized-dark . 12)
+ (enable-theme . 1)
+ (previous-buffer . 2)
+ (dired . 4)
+ (speedbar . 1)
+ (describe-key . 2)
+ (clojure-enable-slime-on-existing-buffers . 3)
+ (load-file . 4)
+ (toggle-fullscreen . 1)
+ (dired-tree-up . 3)
+ (dirtree . 11)
+ (set-variable . 1)
+ (find-file . 2)
+ (image-dired-dired-with-window-configuration . 1)
+ (anything . 4)
+ (next-buffer . 1)
+ (kbd-macro-query . 1)
+ (switch-to-previous-buffer . 2)
+ (pwd . 1)
+ (cd . 1)
+ (eproject-add . 1)
+ (eproject-edit . 1)
+ (linum-mode . 2)
+ (visual-line-mode . 2)
+ (eproject-setup-quit . 1)
+ (eproject-open . 1)
+ (kill-buffer . 1)
+ (slime . 1)
+ (buffer-menu . 2)
+ (color-theme-sitaramv-solaris . 1)
+ (color-theme-comidia . 1)
+ (color-theme-classic . 1)
+ (color-theme-deep-blue . 1)
+ (color-theme-hober . 1)
+ (color-theme-subtle-hacker . 1)
+ (color-theme-gray1 . 1)
+ (color-theme-solarized . 1)
+)

@@ -1,0 +1,98 @@
+(require 'package)
+(add-to-list 'package-archives
+             '("marmalade" . "http://marmalade-repo.org/packages/") t)
+(package-initialize)
+
+(add-to-list 'load-path "~/.emacs.d/evil")
+(add-to-list 'load-path "~/.emacs.d/eproject")
+(require 'evil)  
+(evil-mode 1)
+
+(defun turn-on-paredit () (paredit-mode 1))
+(add-hook 'clojure-mode-hook 'turn-on-paredit)
+
+(add-to-list 'load-path "~/.emacs.d/")
+(require 'auto-complete-config)
+(add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
+(ac-config-default)
+
+(require 'ac-slime)
+(add-hook 'slime-mode-hook 'set-up-slime-ac)
+(add-hook 'slime-repl-mode-hook 'set-up-slime-ac)
+(eval-after-load "auto-complete"
+  '(add-to-list 'ac-modes 'slime-repl-mode))
+
+(require 'dirtree)
+(require 'eproject)
+
+(defun switch-to-previous-buffer ()
+      (interactive)
+      (switch-to-buffer (other-buffer (current-buffer) 1)))
+
+(defun ep-dirtree ()
+  (interactive)
+  (dirtree-in-buffer eproject-root t))
+
+(require 'anything)
+(require 'anything-config)
+(require 'anything-match-plugin)
+
+(define-key evil-normal-state-map (kbd "C-e") 'switch-to-previous-buffer)
+(define-key evil-normal-state-map (kbd "C-f") 'anything)
+(define-key evil-normal-state-map (kbd "C-p") 'ep-dirtree)
+
+(set-default-font "-apple-Monaco-medium-normal-normal-*-14-*-*-*-m-0-iso10646-1")
+
+(global-linum-mode 1)
+(setq linum-format " %d ")
+
+(add-to-list 'load-path "~/.emacs.d/color-theme")
+(require 'color-theme)
+(eval-after-load "color-theme"
+  '(progn
+     (color-theme-initialize)))
+
+(add-to-list 'load-path "~/.emacs.d/emacs-color-theme-solarized")
+(require 'color-theme-solarized)
+(color-theme-solarized-dark)
+
+(add-to-list 'load-path "~/.emacs.d/perspective-el")
+;; Load Perspective
+(require 'perspective)
+;; ;; Toggle the perspective mode
+(persp-mode)
+
+(setq default-directory "~/dev/spiral" )
+
+(defun my-get-source-directory (path)
+  "Please imlement me. Currently returns `path' inchanged."
+  path)
+
+(defvar my-anything-c-source-file-search
+  '((name . "File Search")
+    (init . (lambda ()
+              (setq anything-default-directory
+                    default-directory)))
+    (candidates . (lambda ()
+                    (let ((args
+                           (format "'%s' \\( -path \\*/.svn \\) -prune -o -iregex '.*%s.*' -print"
+                                   (my-get-source-directory anything-default-directory)
+                                   anything-pattern)))
+                    (start-process-shell-command "file-search-process" nil
+                                   "find" args))))
+    (type . file)
+    (requires-pattern . 4)
+    (delayed))
+  "Source for searching matching files recursively.")
+
+(global-set-key (kbd "C-x a")
+  (lambda() (interactive)
+    (anything
+     :prompt "Switch to: "
+     :candidate-number-limit 10                 ;; up to 10 of each 
+     :sources
+     '( anything-c-source-buffers               ;; buffers 
+        anything-c-source-recentf               ;; recent files 
+        anything-c-source-bookmarks             ;; bookmarks
+        anything-c-source-files-in-current-dir+ ;; current dir
+        my-anything-c-source-file-search))))            ;; use 'locate'(global-set-key (kbd "C-x a")

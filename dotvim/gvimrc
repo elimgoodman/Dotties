@@ -1,0 +1,26 @@
+set fuoptions=maxvert,maxhorz
+set guifont=Monaco:h16
+"set transparency=8
+
+tabnew
+lcd ~/dev/development_new/Web/phplib/Tapestry/
+
+tabnew
+lcd ~/dev/development_new/Web/phplib/
+
+tabnew
+lcd ~/dev/development_new/Web/templates/
+
+tabnew
+lcd ~/dev/development_new/Web/htdocs/assets/
+
+tabnew
+lcd ~/dev/development_new/Web/htdocs/
+
+tabnew
+lcd ~/dev/development_new/Web/tests/phpunit/
+
+tabnew
+lcd ~/analytics/
+
+tabclose 1

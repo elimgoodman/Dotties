@@ -1,0 +1,160 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/eli/.emacs.d/elpa/" . "anything-1.287/")
+ ("/Users/eli/dev/spiral/test/spiral/" . "test/")
+ ("/Users/eli/dev/spiral/test/" . "spiral/")
+ ("/Users/eli/dev/renote/src/renote/" . "views/")
+ ("/Users/eli/dev/renote/src/" . "renote/")
+ ("/Users/eli/dev/renote/" . "src/")
+ ("/Users/eli/dev/flurry/resources/public/" . "js/")
+ ("/Users/eli/dev/flurry/resources/" . "public/")
+ ("/Users/eli/dev/flurry/src/flurry/" . "views/")
+ ("/Users/eli/dev/flurry/src/" . "flurry/")
+ ("/Users/eli/dev/flurry/" . "resources/")
+ ("/Users/eli/dev/spiral/src/" . "spiral/")
+ ("/Users/eli/dev/spiral/" . "test/")
+ ("/Users/eli/dev/seesaw-test/src/" . "seesaw_test/")
+ ("/Users/eli/dev/seesaw-test/" . "src/")
+ ("/Users/" . "eli/")
+ ("/" . "Users/")
+ ("/Users/eli/dev/blarg/src/" . "blarg/")
+ ("/Users/eli/dev/blarg/" . "src/")
+ ("/Users/eli/dev/ClojureTest/src/main/clojure/" . "com/")
+ ("/Users/eli/dev/ClojureTest/src/main/" . "clojure/")
+ ("/Users/eli/dev/ClojureTest/src/" . "main/")
+ ("/Users/eli/dev/ClojureTest/" . "src/")
+ ("/Users/eli/dev/clojure-learning/src/" . "clojure_learning/")
+ ("/Users/eli/dev/clojure-learning/" . "src/")
+ ("/Users/eli/dev/" . "spiral/")
+ ("/Users/eli/" . ".emacs.d/")
+ ("/Users/eli/.emacs.d/" . "elpa/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/eli/"
+ "/Users/eli/dev/spiral/"
+ "/Users/eli/.emacs.d/elpa/anything-1.287/"
+ "/Users/eli/dev/spiral/test/spiral/test/"
+ "/Users/eli/dev/spiral/src/spiral/"
+ "/Users/eli/.emacs.d/"
+ "/Users/eli/dev/renote/src/renote/views/"
+ "/Users/eli/dev/renote/src/renote/"
+ "/Users/eli/dev/renote/"
+ "/Users/eli/dev/flurry/src/flurry/views/"
+ "/Users/eli/dev/flurry/resources/public/js/"
+ "/Users/eli/dev/flurry/resources/public/css/"
+ "/Users/eli/dev/flurry/resources/public/"
+ "/Users/eli/dev/seesaw-test/src/seesaw_test/"
+ "/Users/eli/dev/seesaw-test/"
+ "/Users/eli/dev/blarg/src/blarg/"
+ "/Users/eli/dev/ClojureTest/src/main/clojure/com/"
+ "/Users/eli/dev/clojure-learning/src/clojure_learning/"
+ "/Users/eli/.emacs.d/evil/"
+ "/Users/eli/dev/blarg/"
+ "/Users/eli/dev/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ ".emacs"
+ "project.clj"
+ "anything.el"
+ "core.clj"
+ "librarian.clj"
+ "data.clj"
+ "records.clj"
+ "init.el"
+ "welcome.clj"
+ "common.clj"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/eli/" (20350 17938) "yankring_history_v2.txt" "Sites/" "Public/" "Pictures/" "Music/" "Movies/" "Library/" "Dropbox/" "Downloads/" "Documents/" "dev/" "Desktop/" "Calibre Library/" "autojump_errors" "Applications/" ".zshrc" ".zsh_history" ".zsh/" ".zcompdump" ".Xcode/" ".Xauthority" ".vip" ".vimrc" ".viminfo" ".vim-fuf" ".vim/" ".Trash/" ".tmux.conf" ".subversion/" ".ssh/" ".spumux/" ".slime-history.eld" ".scala_history" ".sbt.cache.lock" ".rediscli_history" ".recentf" ".python-eggs/" ".profile" ".phenny/" ".parallels/" ".nuke/" ".npmrc" ".netbeans-registration/" ".netbeans/" ".NERDTreeBookmarks" ".mplayer/" ".m2/" ".lesshst" ".leksah-0.10/" ".lein/" ".jline-clojure.lang.Repl.history" ".jdarkroom/" ".java_history" ".ivy2/" ".irbrc" ".ipython/" ".inputrc" ".inkscape-etc/" ".ido.last" ".heroku/" ".gvimrc" ".gnome2/" ".gitk" ".gitconfig" ".gem/" ".gdb_history" ".fonts/" ".fontconfig/" ".flexlmrc" ".emacs.d/" ".emacs" ".dvdcss/" ".DS_Store" ".dropbox/" ".dbshell" ".cups/" ".config/" ".CFUserTextEncoding" ".cake/" ".bashrc" ".bash_profile" ".bash_history" ".autojump_py.bak" ".autojump_py" ".appcfg_nag" ".adom.data/" ".adobe/" ".ackrc" "../" "./")
+
+ ("/Users/eli/.emacs.d/" (20350 17821) "windata.el" "tree-mode.el" "swank/" "popup.elc" "popup.el" "places (Eli-Goodmans-MacBook-Pro's conflicted copy 2012-04-05)" "places" "perspective-el/" "init.el" "fuzzy.elc" "fuzzy.el" "evil/" "eshell/" "eproject.lst" "eproject (Eli-Goodmans-MacBook-Pro's conflicted copy 2012-04-05).lst" "eproject/" "emacs-color-theme-solarized/" "elpa/" "dirtree.el" "color-theme/" "backups/" "auto-save-list/" "auto-complete.elc" "auto-complete.el" "auto-complete-config.elc" "auto-complete-config.el" "auto-complete/" "anything.el" "anything-config.el" "ac-slime.el" "ac-dict/" "ac-comphist.dat" ".smex-items (Eli-Goodmans-MacBook-Pro's conflicted copy 2012-04-05)" ".smex-items" ".DS_Store" "../" "./")
+
+ ("/Users/eli/dev/spiral/" (20350 17283) "test/" "src/" "README" "project.clj" "lib/" ".lein-failures" ".lein-deps-sum" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/eli/.emacs.d/elpa/anything-1.287/" (20218 27239) "anything.elc" "anything.el" "anything-pkg.elc" "anything-pkg.el" "anything-autoloads.el" "../" "./")
+
+ ("/Users/eli/.emacs.d/elpa/" (20350 16831) "undo-tree-0.3.1/" "starter-kit-eshell-2.0.2/" "starter-kit-2.0.3/" "smex-1.1.2/" "paredit-22/" "magit-1.0.0/" "ido-ubiquitous-0.9/" "idle-highlight-mode-1.1.2/" "find-file-in-project-3.0/" "clojure-mode-1.11.5/" "archives/" "anything-1.287/" ".DS_Store" "../" "./")
+
+ ("/Users/eli/dev/spiral/test/spiral/test/" (20349 37873) "librarian.clj" "data.clj" "core.clj" "../" "./")
+
+ ("/Users/eli/dev/spiral/src/spiral/" (20349 37204) "records.clj" "librarian.clj" "core.clj" "../" "./")
+
+ ("/Users/eli/dev/spiral/test/spiral/" (20344 60087) "test/" "../" "./")
+
+ ("/Users/eli/dev/spiral/test/" (20344 60087) "spiral/" "../" "./")
+
+ ("/Users/eli/dev/spiral/src/" (20344 60087) "spiral/" "../" "./")
+
+ ("/Users/eli/dev/" (20344 60087) "wannado/" "typo_test/" "twentyten/" "tumblr.rb" "tin_test/" "Tin/" "testcurses.py" "testcouch/" "test.clj" "test-noir/" "templates/" "tempios/" "temp.js" "spiral-old/" "spiral thoughts.txt" "spiral/" "sn/" "sitforme/" "seesaw-test/" "scala-test/" "renote/" "pytumblr/" "pyfacebook/" "programming-clojure/" "plants_new/" "plants/" "node/" "nitpicker-read-only/" "network/" "navigator/" "my-app/" "maps/" "m4-1.4.13.tar.gz" "m4-1.4.13/" "jquery.js" "iphone class day 1" "install_lein.sh" "inmybuilding/" "images/" "hyde-blog/" "homebrew/" "foobar/" "foo/" "flurry/" "floe/" "flask_test.py" "flash_test/" "fishnet/" "first_test/" "FieldWorkspace/" "emacs_install.sh" "emacs/" "dotvim/" "cogdis/" "ClojureX/" "ClojureTest/" "clojure-learning/" "clicker/" "class/" "chafe/" "cards/" "blork-test/" "blork/" "blog-backup/" "blog/" "blarg/" "autoconf-2.65.tar.gz" "autoconf-2.65/" "annoyer/" ".flashProjectProperties" ".DS_Store" "../" "./")
+
+ ("/Users/eli/dev/renote/" (20239 37465) "test/" "src/" "resources/" "README.md" "project.clj" "lib/" "classes/" ".lein-deps-sum" ".gitignore" "../" "./")
+
+ ("/Users/eli/dev/renote/src/renote/views/" (20239 37891) "welcome.clj" "common.clj" "#welcome.clj#" "../" "./")
+
+ ("/Users/eli/dev/renote/src/renote/models/" (20239 37246) "../" "./")
+
+ ("/Users/eli/dev/renote/src/renote/" (20239 37246) "views/" "server.clj" "models/" "../" "./")
+
+ ("/Users/eli/dev/renote/src/" (20239 37246) "renote/" "../" "./")
+
+ ("/Users/eli/dev/flurry/resources/public/" (20236 18036) "js/" "index.html" "img/" "css/" "../" "./")
+
+ ("/Users/eli/dev/flurry/src/flurry/views/" (20236 16790) "welcome.clj" "common.clj" "../" "./")
+
+ ("/Users/eli/dev/flurry/resources/public/js/" (20236 17111) ".#main.js" "../" "./")
+
+ ("/Users/eli/dev/flurry/resources/public/css/" (20236 16959) "reset.css" "flurry.css" "../" "./")
+
+ ("/Users/eli/dev/flurry/resources/" (20236 14966) "public/" "../" "./")
+
+ ("/Users/eli/dev/flurry/" (20236 15195) "test/" "src/" "resources/" "README.md" "project.clj" "Procfile" "lib/" "classes/" ".lein-deps-sum" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/eli/dev/flurry/src/flurry/" (20236 14966) "views/" "server.clj" "models/" "../" "./")
+
+ ("/Users/eli/dev/flurry/src/" (20236 14966) "flurry/" "../" "./")
+
+ ("/Users/eli/dev/seesaw-test/" (20221 55912) "test/" "src/" "README" "project.clj" "lib/" "classes/" ".lein-deps-sum" ".gitignore" "../" "./")
+
+ ("/Users/eli/dev/seesaw-test/src/seesaw_test/" (20222 7694) "core.clj" "#macro.clj#" "../" "./")
+
+ ("/Users/eli/dev/blarg/" (20221 54794) "test/" "src/" "README" "project.clj" "lib/" "eproject.cfg" "classes/" ".lein-deps-sum" ".gitignore" "../" "./")
+
+ ("/Users/eli/dev/blarg/src/blarg/" (20220 61110) "core.clj" "../" "./")
+
+ ("/Users/eli/dev/seesaw-test/src/" (20220 53183) "seesaw_test/" "../" "./")
+
+ ("/Users/eli/dev/blarg/test/" (20204 64964) "blarg/" "../" "./")
+
+ ("/Users/" (20010 54442) "Shared/" "eli/" ".localized" "../" "./")
+
+ ("/Users/eli/dev/blarg/src/" (20204 64964) "blarg/" "../" "./")
+
+ ("/Users/eli/dev/ClojureTest/src/main/clojure/com/" (20218 17468) "yourcompany/" "main.clj" ".#main.clj" "#main.clj#" "../" "./")
+
+ ("/Users/eli/dev/ClojureTest/src/main/clojure/" (20168 65496) "com/" "../" "./")
+
+ ("/Users/eli/dev/ClojureTest/src/main/" (20168 65496) "clojure/" "../" "./")
+
+ ("/Users/eli/dev/ClojureTest/src/" (20168 65497) "test/" "main/" "../" "./")
+
+ ("/Users/eli/dev/ClojureTest/" (20169 103) "target/" "src/" "pom.xml" "../" "./")
+
+ ("/Users/eli/dev/clojure-learning/src/clojure_learning/" (20205 15009) "core.clj" "../" "./")
+
+ ("/Users/eli/dev/clojure-learning/" (20205 3653) "test/" "src/" "README" "project.clj" "lib/" "classes/" ".lein-deps-sum" ".gitignore" "../" "./")
+
+ ("/Users/eli/.emacs.d/evil/" (20205 2985) "Makefile" "lib/" "evil.el" "evil-vars.el" "evil-types.el" "evil-tests.el" "evil-states.el" "evil-search.el" "evil-repeat.el" "evil-pkg.el" "evil-maps.el" "evil-macros.el" "evil-integration.el" "evil-ex.el" "evil-digraphs.el" "evil-core.el" "evil-common.el" "evil-commands.el" "doc/" ".gitignore" ".gitattributes" ".git/" "#evil-commands.el#" "../" "./")
+
+ ("/Users/eli/dev/clojure-learning/src/" (20205 2182) "clojure_learning/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

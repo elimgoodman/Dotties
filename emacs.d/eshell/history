@@ -1,0 +1,5 @@
+ls
+cd Desktop/
+man ls
+cd ..
+cat yankring_history_v2.txt 

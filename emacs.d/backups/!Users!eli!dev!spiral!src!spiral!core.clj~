@@ -1,0 +1,4 @@
+(ns spiral.core
+  (:use somnium.congomongo))
+
+(defrecord Type [type_name fields])
