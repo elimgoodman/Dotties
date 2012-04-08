@@ -1,2 +1,9 @@
 ;;; -*- coding: utf-8 -*-
-nil
+(("/Users/eli/.emacs" . 1803)
+ ("/Users/eli/dev/spiral/project.clj" . 374)
+ ("/Users/eli/dev/spiral/src/spiral/core.clj" . 188)
+ ("/Users/eli/dev/spiral/src/spiral/librarian.clj" . 158)
+ ("/Users/eli/dev/spiral/src/spiral/records.clj" . 668)
+ ("/Users/eli/dev/spiral/src/spiral/rest_api.clj" . 705)
+ ("/Users/eli/dev/spiral/test/spiral/test/core.clj" . 342)
+ ("/Users/eli/dev/spiral/test/spiral/test/data.clj" . 610))

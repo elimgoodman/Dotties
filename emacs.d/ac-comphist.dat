@@ -1,4 +1,6 @@
-((("anything-match-plugin" .
+((("json-resp" .
+   [2 0 0 0 0 0 0 0 0])
+  ("anything-match-plugin" .
    [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
   ("Type" .
    [1 0 0 0])

@@ -1,21 +1,21 @@
 
 ;; ----- smex-history -----
 (
+ clojure-jack-in
+ persp-switch-quick
  paredit-mode
+ persp-switch
  ido-find-file
  ido-dired
  speedbar
- dired
- package-install
- load-file
 )
 
 ;; ----- smex-data -----
 (
  (package-install . 21)
  (eshell . 1)
- (paredit-mode . 24)
- (clojure-jack-in . 30)
+ (paredit-mode . 26)
+ (clojure-jack-in . 32)
  (run-lisp . 1)
  (color-theme-select . 8)
  (customize-face . 1)
@@ -57,7 +57,7 @@
  (color-theme-subtle-hacker . 1)
  (color-theme-gray1 . 1)
  (color-theme-solarized . 1)
- (persp-switch . 1)
+ (persp-switch . 2)
  (persp-add-buffer . 1)
  (persp-kill . 1)
  (speedbar-mode . 1)
@@ -65,4 +65,5 @@
  (ido-dired . 1)
  (ido-find-file . 1)
  (anything-at-point . 1)
+ (persp-switch-quick . 2)
 )

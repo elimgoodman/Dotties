@@ -9,6 +9,9 @@ tabnew
 lcd ~/dev/development_new/Web/phplib/
 
 tabnew
+lcd ~/dev/development_new/Blog/
+
+tabnew
 lcd ~/dev/development_new/Web/templates/
 
 tabnew
